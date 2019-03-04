@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="196512" started-at="2019-03-04T10:40:19Z" finished-at="2019-03-04T10:43:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="196512" started-at="2019-03-04T10:40:19Z" finished-at="2019-03-04T10:43:35Z">
+      <class name="testcases.NewTransaction">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.NewTransaction@4cf777e8]" name="setup" is-config="true" duration-ms="22442" started-at="2019-03-04T16:10:19Z" finished-at="2019-03-04T16:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newrewardtransaction()[pri:1, instance:testcases.NewTransaction@4cf777e8]" name="newrewardtransaction" duration-ms="35353" started-at="2019-03-04T16:10:41Z" finished-at="2019-03-04T16:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newrewardtransaction -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.NewTransaction@4cf777e8]" name="quit" is-config="true" duration-ms="86" started-at="2019-03-04T16:11:17Z" finished-at="2019-03-04T16:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.NewTransaction@4cf777e8]" name="setup" is-config="true" duration-ms="23391" started-at="2019-03-04T16:11:17Z" finished-at="2019-03-04T16:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newpurchasebalancetransaction()[pri:2, instance:testcases.NewTransaction@4cf777e8]" name="newpurchasebalancetransaction" duration-ms="36004" started-at="2019-03-04T16:11:40Z" finished-at="2019-03-04T16:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newpurchasebalancetransaction -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.NewTransaction@4cf777e8]" name="quit" is-config="true" duration-ms="92" started-at="2019-03-04T16:12:16Z" finished-at="2019-03-04T16:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.NewTransaction@4cf777e8]" name="setup" is-config="true" duration-ms="22246" started-at="2019-03-04T16:12:16Z" finished-at="2019-03-04T16:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="itemdetailtransaction()[pri:3, instance:testcases.NewTransaction@4cf777e8]" name="itemdetailtransaction" duration-ms="56782" started-at="2019-03-04T16:12:38Z" finished-at="2019-03-04T16:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemdetailtransaction -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.NewTransaction@4cf777e8]" name="quit" is-config="true" duration-ms="94" started-at="2019-03-04T16:13:35Z" finished-at="2019-03-04T16:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.NewTransaction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
