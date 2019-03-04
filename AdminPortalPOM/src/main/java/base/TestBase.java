@@ -29,7 +29,7 @@ public class TestBase {
 		
 		  try {
 			  
-			FileInputStream input = new FileInputStream("D:\\photon_workspace\\adminportal\\config.properties");
+			FileInputStream input = new FileInputStream("C:\\Users\\pkrishnamoorthy\\git\\AdminPortalPOM\\AdminPortalPOM\\config.properties");
 			
 			prop.load(input);
 			
