@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 public class TestBase {
 	
-	static String chrome = "D:\\photon_workspace\\adminportal\\driver\\chromedriver.exe";
+	static String chrome = "D:\\Selenium\\chromedriver.exe";
 
 	public static WebDriver driver;
 	

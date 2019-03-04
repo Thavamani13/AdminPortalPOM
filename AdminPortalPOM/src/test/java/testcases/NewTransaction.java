@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 
 import adminportalpages.adminportal_HomePage;
 import base.TestBase;
-import transactionpages.NewTransactionPage;
+import transactionTab.NewTransactionPage;
 
 public class NewTransaction extends TestBase {
-
+	
 	adminportal_HomePage adminportalhomepage;
 
 	NewTransactionPage newtransactionpage;

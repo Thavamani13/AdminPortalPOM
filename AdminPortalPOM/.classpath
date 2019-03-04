@@ -23,20 +23,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/extentreports-2.41.2.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/ant-1.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/ant-launcher-1.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/bsh-2.0b4.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/bson-3.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/freemarker-2.3.23.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/hamcrest-core-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/jcommander-1.48.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/jsoup-1.8.3.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/junit-4.10.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/mongodb-driver-3.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/mongodb-driver-core-3.0.4.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/snakeyaml-1.15.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/sqlite-jdbc-3.8.11.1.jar"/>
-	<classpathentry kind="lib" path="D:/EXtent report - JARS/extentreports-java-2.41.2/extentreports-java-2.41.2/lib/testng-6.9.9.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
