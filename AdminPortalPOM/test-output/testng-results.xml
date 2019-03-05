@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="178406" started-at="2019-03-04T12:14:57Z" finished-at="2019-03-04T12:17:56Z">
+  <suite name="Default suite" duration-ms="35713" started-at="2019-03-05T11:30:58Z" finished-at="2019-03-05T11:31:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="178406" started-at="2019-03-04T12:14:57Z" finished-at="2019-03-04T12:17:56Z">
-      <class name="testcases.NewTransaction">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.NewTransaction@3e6fa38a]" name="setup" is-config="true" duration-ms="24172" started-at="2019-03-04T17:44:57Z" finished-at="2019-03-04T17:45:21Z">
+    <test name="Default test" duration-ms="35713" started-at="2019-03-05T11:30:58Z" finished-at="2019-03-05T11:31:34Z">
+      <class name="testcases.memberV2Search">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.memberV2Search@1e88b3c]" name="setup" is-config="true" duration-ms="24117" started-at="2019-03-05T17:00:58Z" finished-at="2019-03-05T17:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="newrewardtransaction()[pri:1, instance:testcases.NewTransaction@3e6fa38a]" name="newrewardtransaction" duration-ms="39454" started-at="2019-03-04T17:45:21Z" finished-at="2019-03-04T17:46:01Z">
+        <test-method status="PASS" signature="v2MemberSearch_tc01()[pri:1, instance:testcases.memberV2Search@1e88b3c]" name="v2MemberSearch_tc01" duration-ms="7258" started-at="2019-03-05T17:01:23Z" finished-at="2019-03-05T17:01:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newrewardtransaction -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.NewTransaction@3e6fa38a]" name="quit" is-config="true" duration-ms="105" started-at="2019-03-04T17:46:01Z" finished-at="2019-03-04T17:46:01Z">
+        </test-method> <!-- v2MemberSearch_tc01 -->
+        <test-method status="PASS" signature="v2MemberSearch_tc02()[pri:2, instance:testcases.memberV2Search@1e88b3c]" name="v2MemberSearch_tc02" duration-ms="4318" started-at="2019-03-05T17:01:30Z" finished-at="2019-03-05T17:01:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.NewTransaction@3e6fa38a]" name="setup" is-config="true" duration-ms="20947" started-at="2019-03-04T17:46:01Z" finished-at="2019-03-04T17:46:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="newpurchasebalancetransaction()[pri:2, instance:testcases.NewTransaction@3e6fa38a]" name="newpurchasebalancetransaction" duration-ms="29516" started-at="2019-03-04T17:46:22Z" finished-at="2019-03-04T17:46:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newpurchasebalancetransaction -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.NewTransaction@3e6fa38a]" name="quit" is-config="true" duration-ms="154" started-at="2019-03-04T17:46:52Z" finished-at="2019-03-04T17:46:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.NewTransaction@3e6fa38a]" name="setup" is-config="true" duration-ms="20123" started-at="2019-03-04T17:46:52Z" finished-at="2019-03-04T17:47:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="itemdetailtransaction()[pri:3, instance:testcases.NewTransaction@3e6fa38a]" name="itemdetailtransaction" duration-ms="43817" started-at="2019-03-04T17:47:12Z" finished-at="2019-03-04T17:47:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- itemdetailtransaction -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.NewTransaction@3e6fa38a]" name="quit" is-config="true" duration-ms="91" started-at="2019-03-04T17:47:56Z" finished-at="2019-03-04T17:47:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- testcases.NewTransaction -->
+        </test-method> <!-- v2MemberSearch_tc02 -->
+      </class> <!-- testcases.memberV2Search -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

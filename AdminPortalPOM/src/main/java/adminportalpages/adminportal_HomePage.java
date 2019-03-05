@@ -28,6 +28,7 @@ public class adminportal_HomePage extends TestBase{
 	
 
 	@FindBy(xpath = "//a[text()='Member ']")
+	static
 	WebElement Member;
 
 	@FindBy(xpath = "//a[text()='Retailer ']")
