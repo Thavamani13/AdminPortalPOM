@@ -22,16 +22,17 @@ import memberTab.memberSearchPage;
 
 @Listeners({ ATUReportsListener.class, ConfigurationListener.class,
     MethodListener.class })
-public class memberV2Search extends TestBase {
+public class memberPSIdSearch extends TestBase {
 
 
 
-public memberV2Search(){
+public memberPSIdSearch() {
 	
 	super();
 }
 	{
 	    System.setProperty("atu.reporter.config", pathInterface.atuPropertiesPath);
+	    
 	}
 	
 	static String input_email="Email";
@@ -44,6 +45,8 @@ public memberV2Search(){
 	static String input_partnersourceid="Partner Source ID";
 	static String psIDSheet="QA_PSID";
 	static String v2IDSheet="QA_V2ID";
+	
+	
 	
 	adminportal_HomePage adminportalhomepage;
 	
@@ -64,70 +67,67 @@ public memberV2Search(){
 		
 	}
 
-	
-	@Test(priority=1)
 	//Search By Partner Member ID and validating the count by comparing with DB
-	public void partnerMemberIDSearch_tc01() throws Exception
+	@Test(priority=1)
+	
+	public void psIDSearch_tc01() throws Exception
 	{				
+		
 		adminportalhomepage.clickmember();		
 		membersearchpage.memberSearchSelect();		
-		WebElement element = membersearchpage.SearchInputElement(input_partnermemberid);
-		TestBase.sendKeys(element, getCellData(v2IDSheet, 0, 0));
+		WebElement element = membersearchpage.SearchInputElement(input_partnersourceid);
+		TestBase.sendKeys(element, getCellData(psIDSheet, 0, 0));
 		membersearchpage.searchButtonClick();		
-		int DBCount = TestBase.testPartnerMemberId_DB(TestBase.getCellData(v2IDSheet, 0, 0));		
+		int DBCount = TestBase.TestpartnerSourceId_DB(TestBase.getCellData(psIDSheet, 0, 0));		
 		int UICount = memberSearchPage.getMemberCountfromUI();
 		TestBase.compareResults(DBCount, UICount);
 			
 		
 	}
-	
 	//Search By Partner Member ID using Keyboard Enter and validating the count by comparing with DB
 	@Test(priority=2)
 	
-	public void partnerMemberIDSearch_tc02() throws Exception
+	public void psIDSearch_tc02() throws Exception
 	{				
 		membersearchpage.accountInputFieldsClear();		
 		Thread.sleep(2000);
-		WebElement element = membersearchpage.SearchInputElement(input_partnermemberid);			
-		TestBase.sendKeys(element, getCellData(v2IDSheet, 0, 1));		
+		WebElement element = membersearchpage.SearchInputElement(input_partnersourceid);			
+		TestBase.sendKeys(element, getCellData(psIDSheet, 0, 1));		
 		TestBase.keysEnter(element);		
-		int DBCount = TestBase.testPartnerMemberId_DB(TestBase.getCellData(v2IDSheet, 0, 1));
+		int DBCount = TestBase.TestpartnerSourceId_DB(TestBase.getCellData(psIDSheet, 0, 1));
 		int UICount = memberSearchPage.getMemberCountfromUI();
 		TestBase.compareResults(DBCount, UICount);
 						
 	}
-	
-	//Search By partner Member ID and multiple other fields and comparing the results
+	//Search By partner Source ID and multiple other fields and comparing the results
 	@Test(priority=3)
 	
-	public void partnerMemberIDSearch_tc03() throws Exception
-	{	
-		
+	public void psIDSearch_tc03() throws Exception
+	{				
 		membersearchpage.accountInputFieldsClear();		
 		Thread.sleep(2000);
-		WebElement psid = membersearchpage.SearchInputElement(input_partnermemberid);			
-		TestBase.sendKeys(psid, TestBase.getCellData(v2IDSheet, 0, 0));
-		WebElement altid = membersearchpage.SearchInputElement(input_firstname);			
-		TestBase.sendKeys(altid, TestBase.getCellData(v2IDSheet, 0, 3));
-		WebElement fpaccountid = membersearchpage.SearchInputElement(input_lastname);			
-		TestBase.sendKeys(fpaccountid, TestBase.getCellData(v2IDSheet, 0, 4));
+		WebElement psid = membersearchpage.SearchInputElement(input_partnersourceid);			
+		TestBase.sendKeys(psid, TestBase.getCellData(psIDSheet, 0, 3));
+		WebElement altid = membersearchpage.SearchInputElement(input_memberaltid);			
+		TestBase.sendKeys(altid, TestBase.getCellData(psIDSheet, 0, 4));
+		WebElement fpaccountid = membersearchpage.SearchInputElement(input_fpaccountid);			
+		TestBase.sendKeys(fpaccountid, TestBase.getCellData(psIDSheet, 0, 5));
 		membersearchpage.searchButtonClick();					
-		int DBCount = TestBase.testPartnerMemberId_DB(TestBase.getCellData(v2IDSheet, 0, 2));
+		int DBCount = TestBase.TestpartnerSourceId_DB(TestBase.getCellData(psIDSheet, 0, 2));
 		int UICount = memberSearchPage.getMemberCountfromUI();
 		TestBase.compareResults(DBCount, UICount);
 	}
 	
-	
-	//Search By partner Member ID and verifying the correctness using value displayed under member Attributes
+	//Search By partner Source ID and verifying the correctness using values displayed under member Attributes
 	@Test(priority=4)
 	
-	public void partnerMemberIDSearch_tc04() throws Exception
+	public void psIDSearch_tc04() throws Exception
 	{				
 		
 		membersearchpage.accountInputFieldsClear();		
-		
-		WebElement element = membersearchpage.SearchInputElement(input_partnermemberid);
-		String desiredInput = getCellData(v2IDSheet, 0, 0);
+		Thread.sleep(2000);
+		WebElement element = membersearchpage.SearchInputElement(input_partnersourceid);
+		String desiredInput = getCellData(psIDSheet, 0, 0);
 		TestBase.sendKeys(element, desiredInput);
 		membersearchpage.searchButtonClick();
 		String attributeValue = memberSearchPage.verifyMemberAttributes();		

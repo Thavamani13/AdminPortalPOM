@@ -105,16 +105,7 @@ public class NewTransactionPage  extends TestBase{
 	@FindBy(xpath = "//select[@name='unitType']")
 	WebElement unitType;
 
-	
-	
 
-	
-	
-	
-	
-	
-	
-	
 	
 	public NewTransactionPage() {
 		PageFactory.initElements(driver, this);

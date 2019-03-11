@@ -1,24 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35713" started-at="2019-03-05T11:30:58Z" finished-at="2019-03-05T11:31:34Z">
+  <suite name="Default suite" duration-ms="463293" started-at="2019-03-11T13:29:16Z" finished-at="2019-03-11T13:36:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35713" started-at="2019-03-05T11:30:58Z" finished-at="2019-03-05T11:31:34Z">
+    <test name="Default test" duration-ms="463293" started-at="2019-03-11T13:29:16Z" finished-at="2019-03-11T13:36:59Z">
       <class name="testcases.memberV2Search">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.memberV2Search@1e88b3c]" name="setup" is-config="true" duration-ms="24117" started-at="2019-03-05T17:00:58Z" finished-at="2019-03-05T17:01:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.memberV2Search@e25b2fe]" name="setup" is-config="true" duration-ms="31034" started-at="2019-03-11T18:59:16Z" finished-at="2019-03-11T18:59:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="v2MemberSearch_tc01()[pri:1, instance:testcases.memberV2Search@1e88b3c]" name="v2MemberSearch_tc01" duration-ms="7258" started-at="2019-03-05T17:01:23Z" finished-at="2019-03-05T17:01:30Z">
+        <test-method status="PASS" signature="partnerMemberIDSearch_tc01()[pri:1, instance:testcases.memberV2Search@e25b2fe]" name="partnerMemberIDSearch_tc01" duration-ms="137667" started-at="2019-03-11T18:59:47Z" finished-at="2019-03-11T19:02:04Z">
           <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- v2MemberSearch_tc01 -->
-        <test-method status="PASS" signature="v2MemberSearch_tc02()[pri:2, instance:testcases.memberV2Search@1e88b3c]" name="v2MemberSearch_tc02" duration-ms="4318" started-at="2019-03-05T17:01:30Z" finished-at="2019-03-05T17:01:34Z">
+        </test-method> <!-- partnerMemberIDSearch_tc01 -->
+        <test-method status="PASS" signature="partnerMemberIDSearch_tc02()[pri:2, instance:testcases.memberV2Search@e25b2fe]" name="partnerMemberIDSearch_tc02" duration-ms="134099" started-at="2019-03-11T19:02:04Z" finished-at="2019-03-11T19:04:19Z">
           <reporter-output>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- v2MemberSearch_tc02 -->
+        </test-method> <!-- partnerMemberIDSearch_tc02 -->
+        <test-method status="PASS" signature="partnerMemberIDSearch_tc03()[pri:3, instance:testcases.memberV2Search@e25b2fe]" name="partnerMemberIDSearch_tc03" duration-ms="13500" started-at="2019-03-11T19:04:19Z" finished-at="2019-03-11T19:04:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- partnerMemberIDSearch_tc03 -->
+        <test-method status="PASS" signature="partnerMemberIDSearch_tc04()[pri:4, instance:testcases.memberV2Search@e25b2fe]" name="partnerMemberIDSearch_tc04" duration-ms="146968" started-at="2019-03-11T19:04:32Z" finished-at="2019-03-11T19:06:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- partnerMemberIDSearch_tc04 -->
       </class> <!-- testcases.memberV2Search -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
